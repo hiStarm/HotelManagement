@@ -33,7 +33,7 @@ public class Room {
 
         return isUse;
     }
-    public String ToString(){
+    public String toString(){
         return "["+no+","+type+","+(isUse?"使用":"空闲")+"]";
     }
 }
