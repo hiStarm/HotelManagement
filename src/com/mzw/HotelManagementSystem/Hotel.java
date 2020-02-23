@@ -30,7 +30,7 @@ public class Hotel {
     public void Print(){
         for(int i=0;i<rooms.length;i++){
             for(int k=0;k<rooms[i].length;k++){
-                System.out.print(rooms[i][k].ToString()+"  ");
+                System.out.print(rooms[i][k]+"  ");
             }
             System.out.println();
         }
